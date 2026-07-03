@@ -1611,3 +1611,26 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width 1200px */
+
+@media (max-width:768px){
+html,body{overflow-x:hidden;}
+.header{min-height:auto!important;padding:7rem 0 4rem!important;background-position:center center!important;background-size:cover!important;}
+.header .text-container{text-align:center;max-width:100%;}
+.h1-large{font-size:2.2rem!important;line-height:1.2;}
+.btn-solid-lg,.btn-outline-lg{display:block;width:100%;margin:0 0 12px;}
+#experience .row{align-items:flex-start;}
+#experience .col-lg-4,#experience .col-lg-8{flex:0 0 100%;max-width:100%;}
+#experience img{display:block;width:100%;height:auto;margin-bottom:20px;}
+#experience .pl-3{padding-left:15px!important;}
+#experience .text-right{text-align:left!important;}
+}
+
+.responsive-fs {
+    font-size: 1.5rem !important; /* setara fs-5 */
+}
+
+@media (min-width: 992px) {
+    .responsive-fs {
+        font-size: 1.5rem; /* setara fs-4 */
+    }
+}
